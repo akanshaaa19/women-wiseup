@@ -5,17 +5,17 @@ function RoadMapSection(props) {
   return (
     <Fragment>
           <div className="flex-auto border rounded w-11/12 border-gray-300">
-            <div className="flex md:flex-row flex-col items-center">
+            <div className="flex md:flex-row flex-col md:items-center">
               <div className="flex-auto">
                 {props.step ? <div className="md: text-sm font-normal uppercase pt-3 pl-3 text-gray-500">
                   <span className="font-black">Step {props.step}</span>
                 </div> : ""}
-                <div className="p-3 text-3xl text-gray-800 font">
+                <div className="p-3 text-2xl md:text-3xl text-gray-800 font">
                   {props.name}
                 </div>
                 <div className="px-3 pb-6">
                   {props.content.map(link=>{
-                    return <a className="text-cyan-600" href={link}><li>{link}</li></a>
+                    return <a className="text-cyan-600" href={link.link}><li>{link.title}</li></a>
                   })}
                 </div>
               </div>

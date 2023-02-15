@@ -1,6 +1,6 @@
 function ConnectingBorder() {
   return (
-    <div className="flex items-start flex-row justify-center">
+    <div className="flex items-start flex-row w-11/12 justify-center">
       <div className="border-t-4 border-r-4 border-transparent">
         <div className="w-16 ml-16 h-16 border-l-4 border-gray-300 border-dashed border-b-4 rounded-bl-full" />
       </div>
