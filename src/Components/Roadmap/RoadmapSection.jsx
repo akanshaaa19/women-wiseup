@@ -7,9 +7,9 @@ function RoadMapSection(props) {
           <div className="flex-auto border rounded  border-gray-300">
             <div className="flex md:flex-row flex-col items-center">
               <div className="flex-auto">
-                <div className="md: text-sm font-normal uppercase pt-3 pl-3 text-gray-500">
+                {props.step ? <div className="md: text-sm font-normal uppercase pt-3 pl-3 text-gray-500">
                   <span className="font-black">Step {props.step}</span>
-                </div>
+                </div> : ""}
                 <div className="p-3 text-3xl text-gray-800 font">
                   {props.name}
                 </div>

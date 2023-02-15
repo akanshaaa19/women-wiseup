@@ -1,4 +1,6 @@
 import roadmaps from "../../roadmapdata";
+import { Notfound } from "../Notfound";
+import { SearchBar } from "../SearchBar";
 import ConnectingBorder from "./ConnectingBorder";
 import RoadMapSection from "./RoadmapSection";
 
@@ -8,25 +10,37 @@ function Roadmap(props) {
   });
   console.log(selectedRoadmap);
 
-  const sections = selectedRoadmap[0].sections;
+  // const sections = selectedRoadmap ? selectedRoadmap[0].sections : null;
 
   return (
+    <>
+      {selectedRoadmap.length !== 0 ? (
+        <section className="max-w-5xl mx-auto py-4">
+          <SearchBar />
 
-    <section className="max-w-5xl mx-auto py-10">
-      <h1 className=" text-4xl font-bold mb-8 text-gray-800">
-        {selectedRoadmap[0].courseName}
-      </h1>
-      <div>
-        {sections.map((section) => {
-          return (
-            <>
-              <RoadMapSection name={section.name} content={section.links} step={section.step} />
-              <ConnectingBorder />
-            </>
-          );
-        })}
-      </div>
-    </section>
+          <h1 className=" text-4xl font-bold mb-8 text-gray-800">
+            {selectedRoadmap[0].courseName}
+          </h1>
+          <div>
+            {selectedRoadmap[0].sections.map((section) => {
+              return (
+                <>
+                  <RoadMapSection
+                    name={section.name}
+                    content={section.links}
+                    step={section.step}
+                  />
+                  <ConnectingBorder />
+                </>
+              );
+            })}
+            <RoadMapSection name={"Yay! You've completed this roadmap"} content={[]}/>
+          </div>
+        </section>
+      ) : (
+        <Notfound />
+      )}
+    </>
   );
 }
 

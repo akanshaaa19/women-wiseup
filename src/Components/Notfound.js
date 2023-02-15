@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 
 export const Notfound = () => {
@@ -6,6 +7,7 @@ export const Notfound = () => {
     const handleRoute=(e)=>{
         
     }
+    const navigate = useNavigate();
   return (
     <section className="bg-white dark:bg-gray-900 ">
   <div className="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
@@ -38,7 +40,9 @@ export const Notfound = () => {
           </svg>
           
         </button>
-        <button className="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600" onClick={handleRoute}>
+        <button onClickCapture={()=>{
+          navigate("/")
+        }} className="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600" onClick={handleRoute}>
           Take me home
         </button>
       </div>

@@ -15,7 +15,6 @@ export const Home = () => {
       <About />
       <TrendingPage />
       <Hero2 />
-      <Footer />
     </>
   );
 };
