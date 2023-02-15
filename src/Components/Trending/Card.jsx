@@ -3,7 +3,7 @@ function Card(props) {
   const navigate = useNavigate();
   return (
     <div
-      className="card  rounded-xl drop-shadow-2xl relative mx-2 cursor-pointer "
+      className="card w-full rounded-xl drop-shadow-2xl relative mx-2 cursor-pointer "
       onClick={() => {
         navigate(`/roadmap/${props.id}`);
         window.scroll(0, 0)

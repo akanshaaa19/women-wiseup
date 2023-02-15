@@ -1,5 +1,6 @@
 body{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  padding: auto 1.5rem;
 }
 
 .trending{

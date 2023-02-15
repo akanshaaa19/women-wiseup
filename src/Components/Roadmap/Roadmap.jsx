@@ -10,12 +10,10 @@ function Roadmap(props) {
   });
   console.log(selectedRoadmap);
 
-  // const sections = selectedRoadmap ? selectedRoadmap[0].sections : null;
-
   return (
     <>
       {selectedRoadmap.length !== 0 ? (
-        <section className="max-w-5xl mx-auto py-4">
+        <section className="max-w-5xl mx-10 md:mx-auto py-4">
           <SearchBar />
 
           <h1 className=" text-4xl font-bold mb-8 text-gray-800">

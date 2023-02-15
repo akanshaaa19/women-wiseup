@@ -3,24 +3,24 @@ import React from 'react'
 export default function Hero2() {
   return (
     <>
-  <div className="xl:w-1/2 w-11/12 px-16 py-4">
+  <div className="xl:w-1/2 w-11/12 px-4 md:px-16 py-4 w-full mx-auto">
     <h1
       role="heading"
       tabIndex={0}
-      className="text-6xl font-bold  text-gray-800"
+      className="md:text-6xl text-5xl font-bold  text-gray-800"
     >
       Touching hundreds of lives
     </h1>
     <h2
       role="contentinfo"
       tabIndex={0}
-      className="text-base leading-normal text-gray-600 mt-5"
+      className="text-base leading-normal text-gray-600 mt-3"
     >
       Our Faculty of experinced teachers will help you get a dream job
     </h2>
   </div>
-  <div className="2xl:px-20 lg:px-12 px-4 flex flex-wrap items-start mt-4">
-    <div className="mt-24">
+  <div className="2xl:px-20 lg:px-12 px-4 flex flex-wrap items-center mt-4 justify-center">
+    <div className="mt-18">
       <div className="flex items-end">
         <img
           tabIndex={0}
@@ -57,7 +57,7 @@ export default function Hero2() {
         />
       </div>
     </div>
-    <div className="ml-6 mt-32">
+    <div className="ml-6 mt-6 md:mt-32">
       <img
         tabIndex={0}
         src="https://i.ibb.co/LSxy7fy/Rectangle-9.png"
@@ -79,7 +79,7 @@ export default function Hero2() {
         />
       </div>
     </div>
-    <div className="mt-14 ml-6">
+    <div className="md:mt-14 mt-6 ml-6 mb-6">
       <div className="lg:flex">
         <div>
           <img
@@ -90,7 +90,7 @@ export default function Hero2() {
           />
         </div>
         <div>
-          <div className="flex ml-6">
+          <div className="flex ml-6 hidden md:block">
             <img
               tabIndex={0}
               src="https://i.ibb.co/80jvpSv/Rectangle-16.png"
@@ -112,7 +112,7 @@ export default function Hero2() {
           />
         </div>
       </div>
-      <div className="mt-6 flex">
+      <div className="mt-6 flex hidden md:block">
         <img
           tabIndex={0}
           className="w-48 h-48 rounded-lg"

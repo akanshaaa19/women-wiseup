@@ -31,11 +31,11 @@ const tracks = [
 function TrendingPage() {
   return (
     <section className="">
-      <div className="mx-16 my-8 ">
+      <div className="md:mx-16 mx-10 my-8 ">
         <h1 className="text-cyan-800 font-extrabold text-4xl mb-3">
           Trending Topics
         </h1>
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-flowcol px-10 overflow-auto trending">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-flowcol md:px-10 px-6 overflow-auto trending">
           {tracks.map((track) => {
             return <Card id={track.id} src={track.src} heading={track.heading} />;
           })}
