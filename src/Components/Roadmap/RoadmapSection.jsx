@@ -4,7 +4,7 @@ function RoadMapSection(props) {
     // console.log(props)
   return (
     <Fragment>
-          <div className="flex-auto border rounded w-11/12 border-gray-300">
+          <div className="flex-auto border rounded w-10/12 border-gray-300">
             <div className="flex md:flex-row flex-col md:items-center">
               <div className="flex-auto">
                 {props.step ? <div className="md: text-sm font-normal uppercase pt-3 pl-3 text-gray-500">
