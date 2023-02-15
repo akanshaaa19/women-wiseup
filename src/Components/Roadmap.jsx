@@ -11,7 +11,7 @@ export const Roadmap = (props) => {
   return (
     // <div>{params.id}</div>
     <>
-      <nav className="mt-3 ml-6">
+      <nav className="mt-3 ml-6 w-screen">
         <div className="text-2xl font-bold text-gray-800 md:text-3xl">
           <a href="/" className="text-red-400">
             WomenWiseUp.com
