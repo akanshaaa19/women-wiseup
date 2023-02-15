@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hero2() {
   return (
     <>
-  <div className="xl:w-1/2 w-11/12 px-4 md:px-16 py-4 w-full mx-auto">
+  <div className="xl:w-1/2 w-11/12 w-full md:mx-16 mx-10 my-16 ">
     <h1
       role="heading"
       tabIndex={0}

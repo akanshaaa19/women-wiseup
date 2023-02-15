@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import { Roadmap } from "./Roadmap";
+// import { Roadmap } from "./Roadmap";
 import { Link, useNavigate } from "react-router-dom";
 import { Style } from "./Style";
 
@@ -24,8 +24,8 @@ export const Hero = () => {
               <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">
                 <Style />
               </h2>
-              <div style={{ maxWidth: 700, margin: "100px auto" }}>
-                <form className="flex items-center" onSubmit={submitHandeler}>
+              <div className="mt-20 mb-10 w-2/3">
+                <form className="flex " onSubmit={submitHandeler}>
                   <label htmlFor="voice-search" className="sr-only">
                     Search
                   </label>
@@ -99,11 +99,11 @@ export const Hero = () => {
             </div>
           </div>
           <div
-            className=" lg:block lg:w-1/2"
+            className=" lg:block lg:w-1/2 "
             style={{ clipPath: "polygon(10% 0, 100% 0%, 100% 100%, 0 100%)" }}
           >
             <div
-              className="h-full object-cover"
+              className="h-screen object-cover z-20 bg-#78b0b5"
               style={{
                 backgroundImage:
                   "url(https://img.freepik.com/free-photo/young-beautiful-smiling-female-trendy-summer-red-dress-sexy-carefree-woman-posing-near-blue-wall-studio-positive-model-having-fun-cheerful-happy-isolated_158538-25762.jpg?w=900&t=st=1676195787~exp=1676196387~hmac=aafc5845b0f7603bf62b1289c503edfe7e24a199724973aab945c918e58410aa)",

@@ -6,7 +6,7 @@ export const Style = () => {
     <>
   <div className="flex  items-center justify-center bg-transparent font-bold text-blue-400 bg-transparent">
     <div className=" text-center space-y-12">
-      <div className="text-center text-3xl font-bold">
+      <div className="text-center text-5xl font-bold">
         <span className='mr-2'>Buid Your Career In</span>
         <div className="relative inline-grid grid-cols-1 grid-rows-1 gap-12 overflow-hidden text-black" >
           <span className="animate-word col-span-full row-span-full">

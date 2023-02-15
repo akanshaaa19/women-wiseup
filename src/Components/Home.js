@@ -12,7 +12,7 @@ export const Home = () => {
       <NavBar />
 
       <Hero />
-      <About />
+      {/* <About /> */}
       <TrendingPage />
       <Hero2 />
     </>

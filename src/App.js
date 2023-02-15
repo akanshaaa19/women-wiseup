@@ -2,7 +2,7 @@ import "./App.css";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import { Hero } from "./Components/Hero";
-import { Roadmap } from "./Components/Roadmap";
+import { RoadmapContainer } from "./Components/RoadmapContainer";
 import { LoginStudent } from "./Components/LoginStudent";
 import { SearchBar } from "./Components/SearchBar";
 import TrendingNow from "./Components/TrendingNow";
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route element={<LoginStudent />} path={"/login"} />
         <Route element={<Home />} path={"/"} exact />
-        <Route element={<Roadmap />} path={"/roadmap/:id"} />
+        <Route element={<RoadmapContainer />} path={"/roadmap/:id"} />
         {/* <Route element={<Carousel />} path={"/qwerty/yuo/hgh"} /> */}
       </Routes>
       <Footer />

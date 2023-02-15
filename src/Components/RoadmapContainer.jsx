@@ -5,7 +5,7 @@ import { Notfound } from "./Notfound";
 import { SearchBar } from "./SearchBar";
 import RoadMap from "./Roadmap/Roadmap";
 
-export const Roadmap = (props) => {
+export const RoadmapContainer = (props) => {
   const params = useParams();
   const roadmapId = params.id;
   return (
