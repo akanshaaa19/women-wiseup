@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/women-wiseup/static/css/main.ed199d80.css",
-    "main.js": "/women-wiseup/static/js/main.d26ac56f.js",
+    "main.css": "/women-wiseup/static/css/main.20a5dc8e.css",
+    "main.js": "/women-wiseup/static/js/main.0fb4ce3d.js",
     "static/js/787.2f684b0d.chunk.js": "/women-wiseup/static/js/787.2f684b0d.chunk.js",
     "index.html": "/women-wiseup/index.html",
     "static/media/slick.svg": "/women-wiseup/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/women-wiseup/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/women-wiseup/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/women-wiseup/static/media/slick.295183786cd8a1389865.woff",
-    "main.ed199d80.css.map": "/women-wiseup/static/css/main.ed199d80.css.map",
-    "main.d26ac56f.js.map": "/women-wiseup/static/js/main.d26ac56f.js.map",
+    "main.20a5dc8e.css.map": "/women-wiseup/static/css/main.20a5dc8e.css.map",
+    "main.0fb4ce3d.js.map": "/women-wiseup/static/js/main.0fb4ce3d.js.map",
     "787.2f684b0d.chunk.js.map": "/women-wiseup/static/js/787.2f684b0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed199d80.css",
-    "static/js/main.d26ac56f.js"
+    "static/css/main.20a5dc8e.css",
+    "static/js/main.0fb4ce3d.js"
   ]
 }
