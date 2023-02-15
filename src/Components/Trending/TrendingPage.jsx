@@ -37,27 +37,27 @@ function TrendingPage() {
           Trending Topics
         </h1>
         <div className="flex flex-nowrap md:px-10 px-6 overflow-auto trending relative">
-          <button
+          {/* <button
             className="sticky z-20 top-28 left-0"
             onClick={() => {
               window.scroll(100, 0);
             }}
           >
             <i class="fa-solid fa-chevron-left fa-4x"></i>
-          </button>
+          </button> */}
           {tracks.map((track) => {
             return (
               <Card id={track.id} src={track.src} heading={track.heading} />
             );
           })}
-          <button
+          {/* <button
             className="sticky z-20 top-28 right-0"
             onClick={() => {
               window.scroll(100, 0);
             }}
           >
             <i class="fa-solid fa-chevron-right fa-4x"></i>
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

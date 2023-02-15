@@ -9,7 +9,7 @@ function NavBar() {
     <nav className="bg-white shadow-lg sticky py-2 top-0 z-30 md:w-screen">
       <div className="md:flex items-center justify-between py-2 px-8 md:px-12">
         <div className="flex justify-between items-center">
-          <div className="text-2xl font-bold text-gray-800 md:text-4xl">
+          <div className="text-2xl font-bold text-gray-800 md:text-3xl">
             <a href="#">WomenWiseUp.com</a>
           </div>
           <div className="md:hidden">
@@ -27,7 +27,7 @@ function NavBar() {
           </div>
         </div>
 
-        <div className="flex hidden md:flex-row  md:block mx-2 px-4 text-xl">
+        <div className="flex hidden md:flex-row  md:block mx-2 px-4 text-base items-center">
           <a className="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">
             Home
           </a>
